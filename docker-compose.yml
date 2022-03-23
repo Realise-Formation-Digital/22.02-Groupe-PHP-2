@@ -4,8 +4,8 @@ services:
   # `webserver` service provides Apache + PHP
   webserver:
     # Use custom image based on php-apache official image
-    image: php:7.4-apache
-    container_name: jeu-de-role
+    image: php:8.1.4-apache
+    container_name: jeu-de-roles
     # Run the services as the same user as the host's one, or as user with uid 1000
     user: "${UID:-1001}:${UID:-1001}"
     # Expose HTTP/S ports
