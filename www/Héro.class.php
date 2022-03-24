@@ -1,20 +1,21 @@
 <?php
 
-class Humain {
+include "Humain.class.php";
 
+class Hero extends Humain{
 
-
-}    
-
-
-class Hero {
-
-        protected $life = 10;
-        protected $xp = 0;
-        protected $strength = 1;
-        protected $stamina = 1;
+        
         protected $bag = [];
-        protected $coins = 20;
+        
+
+
+        public function __construct(){
+            $this->life = 10;
+            $this->xp = 0;
+            $this->strength = 1;
+            $this->$stamina = 1;
+            $this->coins = 20;
+        }
 
 
 
