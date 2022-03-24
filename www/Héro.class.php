@@ -9,23 +9,20 @@ class Hero extends Humain{
         
 
 
-<<<<<<< Updated upstream
         public function __construct(){
             $this->life = 10;
             $this->xp = 0;
             $this->strength = 1;
             $this->$stamina = 1;
             $this->coins = 20;
-        }
-=======
-        protected $life;
-        protected $xp;
-        protected $strength;
-        protected $stamina ;
-        protected $bag = [];
-        protected $coins;
->>>>>>> Stashed changes
+            $this->bag = [0 => new Armes()];
 
+            if(!empty($this->bag)){
+            
+                $this->stamina += Armes()->$stamina;
+                $this->strength += Armes()->$strength;
+            }
+        }
 
 
         protected function _combattre(){
