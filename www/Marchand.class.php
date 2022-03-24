@@ -1,7 +1,9 @@
 <?php
 
-class Marchands extends Humain{
 
+include "Humain.class.php";
+
+class Marchands extends Humain{
 
 
     public function __construct(){
