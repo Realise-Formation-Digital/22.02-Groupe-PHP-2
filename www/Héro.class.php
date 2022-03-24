@@ -9,6 +9,7 @@ class Hero extends Humain{
         
 
 
+<<<<<<< Updated upstream
         public function __construct(){
             $this->life = 10;
             $this->xp = 0;
@@ -16,6 +17,14 @@ class Hero extends Humain{
             $this->$stamina = 1;
             $this->coins = 20;
         }
+=======
+        protected $life;
+        protected $xp;
+        protected $strength;
+        protected $stamina ;
+        protected $bag = [];
+        protected $coins;
+>>>>>>> Stashed changes
 
 
 
