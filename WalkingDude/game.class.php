@@ -1,11 +1,15 @@
 <?php
 
 class Game();
-$hero
-$monster
-$merchant
+public $hero = ;
+public $monster = ;
+public $merchant = ;
 
-__construct
+public function __construct() {
+
+    $this->
+
+}
 
 
 ?>
