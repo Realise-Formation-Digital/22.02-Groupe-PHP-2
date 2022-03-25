@@ -1,12 +1,11 @@
 <?php
-include "Humain.class.php";
-include "MArchand.class.php";
+
 
 class Armes extends Humain {
 
 
 
-    public function __construct($nom){
+    public function __construct(){
 
         $this->strength = rand(1,50);
         $this->stamina = rand(1,50);
