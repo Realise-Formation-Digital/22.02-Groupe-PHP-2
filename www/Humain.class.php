@@ -2,10 +2,10 @@
 
 class Humain{
 
-    protected $life;
-    protected $xp;
-    protected $strength;
-    protected $stamina;
-    protected $coins;
+    public $life;
+    public $xp;
+    public $strength;
+    public $stamina;
+    public $coins;
 
 }
