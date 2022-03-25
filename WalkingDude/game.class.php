@@ -1,10 +1,15 @@
 <?php
 
+// Properties
 class Game {
 private $_hero;
 private $_monster;
 private $_merchant;
 private $_arms = [];
+
+
+
+// Methods
 
 function __construct() {
     $this->_hero=new Hero();
@@ -13,19 +18,40 @@ function __construct() {
     $this->_arms=new Arms();
 }
 
-getHero() {
+
+public function setHero ($_hero)
+{
+$this->_hero=$_hero;
+}
+
+public function getHero() {
     return $this->_hero;
 }
 
-getMonster() {
+public function setMonster ($_monster)
+{
+$this->_hero=$_monster;
+}
+
+public function getMonster() {
     return $this->_monster;
 }
 
-getMerchant() {
+public function setMerchant ($_merchant)
+{
+$this->_hero=$_merchant;
+}
+
+public function getMerchant() {
     return $this->_merchant;
 }
 
-getArms() {
+public function setArms ($_arms)
+{
+$this->_hero=$_arms;
+}
+
+public function getArms() {
     return $this->_arms;
 }
 
