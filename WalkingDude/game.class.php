@@ -5,7 +5,7 @@ class Game {
 private $_hero;
 private $_monster;
 private $_merchant;
-private $_arms = [];
+private $_arms=[];
 
 
 
@@ -19,7 +19,7 @@ function __construct() {
 }
 
 
-public function setHero ($_hero)
+public function setHero($_hero)
 {
 $this->_hero=$_hero;
 }
@@ -28,27 +28,24 @@ public function getHero() {
     return $this->_hero;
 }
 
-public function setMonster ($_monster)
-{
-$this->_hero=$_monster;
+public function setMonster($_monster) {
+$this->_monster=$_monster;
 }
 
 public function getMonster() {
     return $this->_monster;
 }
 
-public function setMerchant ($_merchant)
-{
-$this->_hero=$_merchant;
+public function setMerchant($_merchant) {
+$this->_merchant=$_merchant;
 }
 
 public function getMerchant() {
     return $this->_merchant;
 }
 
-public function setArms ($_arms)
-{
-$this->_hero=$_arms;
+public function setArms($_arms) {
+$this->_arms=$_arms;
 }
 
 public function getArms() {
