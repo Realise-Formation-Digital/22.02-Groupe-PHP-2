@@ -1,6 +1,6 @@
 <?php
 include "Humain.class.php";
-
+include "MArchand.class.php";
 
 class Armes extends Humain {
 
