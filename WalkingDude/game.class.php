@@ -5,10 +5,10 @@
 
 class Game
 {
-    private $_hero;
-    private $_monster;
-    private $_merchant;
-    private $_weapon = [];
+    protected $_hero;
+    protected $_monster;
+    protected $_merchant;
+    protected $_weapon = [];
 
 
 // Methods
@@ -18,71 +18,71 @@ class Game
         $this->_hero = new Hero;
         $this->_monster = new Monster;
         $this->_merchant = new Merchant;
-        $this->_arms = new Weapon;
+        $this->_weapon = new Weapon;
     }
 
 
-    public function setHero($_hero)
+    protected function setHero($_hero)
     {
         $this->_hero = $_hero;
     }
 
-    public function getHero()
+    protected function getHero()
     {
         return $this->_hero;
     }
 
-    public function setMonster($_monster)
+    protected function setMonster($_monster)
     {
         $this->_monster = $_monster;
     }
 
-    public function getMonster()
+    protected function getMonster()
     {
         return $this->_monster;
     }
 
-    public function setMerchant($_merchant)
+    protected function setMerchant($_merchant)
     {
         $this->_merchant = $_merchant;
     }
 
-    public function getMerchant()
+    protected function getMerchant()
     {
         return $this->_merchant;
     }
 
-    public function setWeapon($_weapon)
+    protected function setWeapon($_weapon)
     {
         $this->_weapon = $_weapon;
     }
 
-    public function getWeapon()
+    protected function getWeapon()
     {
         return $this->_weapon;
     }
 
 
 
-    function attack()
+    protected function attack()
     {
         return;
     }
 
 
-    function defend()
+    protected function defend()
     {
         return;
     }
 
 
-    function kill()
+    protected function kill()
     {
         return;
     }
 
 
-    function live()
+    protected function live()
     {
         return;
     }
