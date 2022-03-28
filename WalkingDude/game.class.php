@@ -1,6 +1,7 @@
 <?php
 
 // Properties
+
 class Game {
 private $_hero;
 private $_monster;
@@ -53,5 +54,3 @@ public function getArms() {
 }
 
 }
-
-?>
