@@ -1,13 +1,12 @@
 <?php
 
-// Properties
 
+// Properties
 class Game {
 private $_hero;
 private $_monster;
 private $_merchant;
 private $_arms=[];
-
 
 
 // Methods
