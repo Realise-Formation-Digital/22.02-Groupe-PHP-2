@@ -9,8 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>The Walking Dude</title>
 </head>
+<!-- PAGE D'ACCEUIL -->
 <body class="bg bg-dark">
-
+<!--  CARTE AVEC MODAL-->
 <div class="container-fluid">
     <div class="container">
         <div class="card border border-warning border-2 position-absolute top-50 start-50 translate-middle text-center" style="width: 35rem;">
@@ -23,7 +24,7 @@
         </div>
     </div>
 </div>
-
+<!-- MODAL  -->
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -31,10 +32,11 @@
                 <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+            <!-- CORPS DU MODAL -->
             <div class="modal-body">
                 <div class="container">
+                    <!-- FORMULAIRE DU MODAL -->
                     <form method="post">
-
                         <div class="form-group">
                             <label class="pb-3" for="text">Entrer un nom de héro</label>
                             <input name="names" class="form-control mb-2" id="inputVal2" placeholder="ici...">
@@ -51,9 +53,8 @@
                         <br>
                         <button  name="Lancer" class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal" type="submit">Choose</button>
                     </form>
-                     
+                    <!-- FIN DU CORPS DEBUT DU FOOTER -->
                     <div class="modal-footer">
-                    
                     </div>
                 </div>
             </div>
@@ -65,6 +66,7 @@
         </div>
     </div>
 </div>
+<!-- 2EM MODAL -->
 <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -72,6 +74,7 @@
         <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <!-- COPRS DU MODAL 2 avec php -->
       <div class="modal-body">
             <?php 
                 require "Héro.class.php";
@@ -111,6 +114,7 @@
                 }
             ?>       
       </div>
+      <!-- FIN CORPS MODAL 2 DEBUT FOOTER -->
       <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">RETOUR</button>
@@ -135,7 +139,7 @@
   <hr>
     
 </div> -->
-
+<!-- BOUTTON START - NEW GAME -->
 <?php
 
     if(isset($_POST['start'])){
