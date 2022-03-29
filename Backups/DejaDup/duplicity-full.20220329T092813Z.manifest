@@ -1,0 +1,22 @@
+Hostname digital-HP-EliteBook-840-G3
+Localdir /
+Volume 1:
+    StartingPath   .  
+    EndingPath     home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/pseudo-games.php  
+    Hash SHA1 9059d06dace772578dbd4e87491c17e963d13077
+Filelist 15
+    new      home/cf/.cache/deja-dup/metadata/README
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/.idea/workspace.xml
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/action.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/game.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/hero.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/human.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/merchant.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/monster.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/classes/weapon.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/fight.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/figures.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/game.class.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/index.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/main.php
+    new      home/cf/Documents/GitHub/22.02-Groupe-PHP-2/WalkingDude/pseudo-games.php
