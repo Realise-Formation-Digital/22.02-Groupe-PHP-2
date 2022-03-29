@@ -68,8 +68,25 @@ class Game
     }
     
     
+    public function stateHero($_hero)
+    {
+        return $this->   ;
+    }
+
+    public function stateMonster($_monster)
+    {
+        return $this->   ;
+    }
+    // The game coninues...
+
+    public function deadHero(_$hero)
+    {
+        return $this-> ;
+    }
+    // End of the game
+
     
-    
+
     // Methods for fighting
     
     // Hero or Monster attacks first?
