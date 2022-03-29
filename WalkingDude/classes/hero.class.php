@@ -3,10 +3,10 @@
 
 <?php
 
-include "Humain.class.php";
+include "human.class.php";
 
 
-class Hero extends Humain{
+class Hero extends Human{
 
         public $name;
         

@@ -1,7 +1,7 @@
 <?php
 
 
-class Monstres extends Humain{
+class Monster extends Human{
 
     protected $weapon;
 

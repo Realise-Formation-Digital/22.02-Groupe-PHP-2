@@ -1,26 +1,26 @@
 <?php
 
 
-include "Humain.class.php";
+include "human.class.php";
 
-class Marchands extends Humain{
+class Merchant extends Human{
 
 
     public function __construct(){
         $this->xp = rand(1, 50);
-        $this->bag = [new Armes(), new Armes(), new Armes()];
+        $this->bag = [new Weapon(), new Weapon(), new Weapon()];
 
     }
 
 
-    protected function acheter(){
+    protected function buy(){
 
 
 
     }
 
 
-    protected function vendre(){
+    protected function sell(){
 
 
 

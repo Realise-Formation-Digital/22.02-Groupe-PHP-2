@@ -1,6 +1,6 @@
 <?php
 
-class Humain{
+class Human{
 
     public $life;
     public $xp;
