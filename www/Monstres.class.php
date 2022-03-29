@@ -2,7 +2,7 @@
 
 //include 'Humain.class.php';
 
-class Monstrer extends Humain{
+class Monster extends Human{
 
     protected $weapon;
     protected $coins;
@@ -51,9 +51,6 @@ class Monstrer extends Humain{
     }
     //Monstre porte l
     public function defendrer($this){
-        
-    
-    
                 
             if (($this->strenght > $ennemy->stamina) && ($ennemy->stamina <= 0)){
     
@@ -74,38 +71,14 @@ class Monstrer extends Humain{
             } 
 
     }
-                
-
-
-
-
-
-
-
-
-
- 
-$monstrer = [];
-$monstrer[] = new Monstrer('Joker', 1, 1, 1, 20, [new Armes()]);
-$monstrer[] = new Monstrer('Voltemort', 1, 2, 0, 20, [new Armes()]);
-$monstrer[] = new Monstrer('Hallowenn', 1, 2, 2, 20, [new Armes()]);
-$monstrer[] = new Monstrer('Julien', 1, 3, 1, 20, [new Armes()]);               
-                
-}              
-              
-
-
-                    
-            
-        ?> 
-
-    
-
-        
-
-       
 
    
+}   
 
-
-
+$monster = [];
+$monster[] = new Monster('Joker', 1, 1, 1, 20, [new Armes()]);
+$monster[] = new Monster('Voltemort', 1, 2, 0, 20, [new Armes()]);
+$monster[] = new Monster('Hallowenn', 1, 2, 2, 20, [new Armes()]);
+$monster[] = new Monster('Julien', 1, 3, 1, 20, [new Armes()]);               
+     
+?>
