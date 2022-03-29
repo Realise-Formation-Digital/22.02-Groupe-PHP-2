@@ -5,13 +5,12 @@
 
 class Game {
 
-private $_hero;
 private $_monster;
 private $_merchant;
 private $_weapon = [];
 
 public function __construct() {
-    $this->_hero=new Hero();
+    
     $this->_monster=new Monstres();
     $this->_merchant=new Marchands();
     $this->_arms=new Armes();

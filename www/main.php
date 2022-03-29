@@ -97,9 +97,10 @@
 
     <?php
 
-    if(isset($_POST['start'])){
-        $game = new Game;
-    }
+    // if(isset($_POST['start'])){
+    //     $game = new Game;
+    //     var_dump()
+    // }
 
 ?>
 </body>

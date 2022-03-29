@@ -56,9 +56,11 @@
       $height = $largeur_maxi;
     }
   //On affiche l'image aléatoire (en respectant les standards ! :) )
-  echo "<a href=\"".$chem_img."/".$listef[$random_img]."\" onclick=\"window.open(this.href,'_blank');return false;\"><img style=\"border: none; width: ".$width."px; height: ".$height."px\" src=\"".$chem_img."/".$listef[$random_img]."\" alt=\"".$listef[$random_img]."\" /></a>";
+  echo "<img style=\"border: none; width: ".$width."px; height: ".$height."px\" src=\"".$chem_img."/".$listef[$random_img]."\" alt=\"".$listef[$random_img]."\" />";
   //On ferme le dossier
+
   closedir($handle);
+
 ?>
 </body>
 
