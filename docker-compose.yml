@@ -18,4 +18,3 @@ services:
     sysctls:
       # Allow OS to bind 80 port to unprivileged (eg. non-root) users
       - net.ipv4.ip_unprivileged_port_start=0 
-

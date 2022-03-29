@@ -1,7 +1,7 @@
 <?php
 
 
-class Armes extends Humain {
+class Weapon extends Human {
 
 
 

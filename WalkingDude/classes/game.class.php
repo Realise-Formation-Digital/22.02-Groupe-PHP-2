@@ -5,8 +5,6 @@ include("./monster.class.php");
 include("./merchant.class.php");
 include("./weapon.class.php");
 
-// Properties
-
 class Game
 {
     protected $_hero;
@@ -65,16 +63,63 @@ class Game
     {
         return $this->_weapon;
     }
+    
+    
+    public function stateHero($_hero)
+    {
+        // return $this->   ;
+    }
+
+    public function stateMonster($_monster)
+    {
+        // return $this->   ;
+    }
+    // The game coninues...
+
+    public function deadHero(_$hero)
+    {
+        // return $this-> ;
+    }
+    // End of the game
+
+    
+
+    // Methods for fighting
+    
+    // Hero or Monster attacks first?
+
+// random 
+
+// $attackFirst = rand(0,10);
+//         if ($attackFirst % 2 == 0) {
+//             $win = ($this->_Monster)->attackFirst($this->_Hero);
+//             if $this->_Monster($win) // Monster wins
+//             { 
+//                   // Hero loses a life
+//                 $this->_Hero getLife() {
+//                     return $this->_Ĥero -=  Life };
+//                 $this->_Hero setLife() {
+//                     return $this->_Hero = life };
+// 			else $this-> Hero($win) // Hero wins
+// 			{
+// 				  // Monster dies
+// 				protected  $this-> Monster 
+// 					return $this-> Monster  {
+// 				protected  $this-> Monster {
+				
+				
+
+//// who is alive?
+
+//if Hero's life > 0 -> the fight continues 
+//else Hero is dead -> end of the game
+
+
+//// Hero's and Monster's stats 
 
 
 
     // public function attack()
-    // {
-    //     return;
-    // }
-
-
-    // public function defend()
     // {
     //     return;
     // }
