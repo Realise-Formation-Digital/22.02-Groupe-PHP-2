@@ -76,22 +76,22 @@ class Game
 
 // random 
 
-$attackFirst = rand(0,10);
-        if ($attackFirst % 2 == 0) {
-            $win = ($this->_Monster)->attackFirst($this->_Hero);
-            if $this->_Monster($win) // Monster wins
-            { 
-                  // Hero loses a life
-                protected  $this->_Hero getLife() {
-                    return $this->_Ĥero -=  Life };
-                protected  $this->_Hero setLife() {
-                    return $this->_Hero = life };
-			else $this-> Hero($win) // Hero wins
-			{
-				  // Monster dies
-				protected  $this-> Monster 
-					return $this-> Monster  {
-				protected  $this-> Monster {
+// $attackFirst = rand(0,10);
+//         if ($attackFirst % 2 == 0) {
+//             $win = ($this->_Monster)->attackFirst($this->_Hero);
+//             if $this->_Monster($win) // Monster wins
+//             { 
+//                   // Hero loses a life
+//                 $this->_Hero getLife() {
+//                     return $this->_Ĥero -=  Life };
+//                 $this->_Hero setLife() {
+//                     return $this->_Hero = life };
+// 			else $this-> Hero($win) // Hero wins
+// 			{
+// 				  // Monster dies
+// 				protected  $this-> Monster 
+// 					return $this-> Monster  {
+// 				protected  $this-> Monster {
 				
 				
 
