@@ -31,7 +31,7 @@ class Game
         $this->_hero = $_hero;
     }
 
-    public function getHero()
+    protected function getHero()
     {
         return $this->_hero;
     }
@@ -56,7 +56,7 @@ class Game
         return $this->_merchant;
     }
 
-    public function setWeapon($_weapon)
+    protected function setWeapon($_weapon)
     {
         $this->_weapon = $_weapon;
     }
