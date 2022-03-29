@@ -2,58 +2,88 @@
 
 
 // Properties
-class Game {
-private $_hero;
-private $_monster;
-private $_merchant;
-private $_arms=[];
+
+class Game
+{
+    protected $_hero;
+    protected $_monster;
+    protected $_merchant;
+    protected $_weapon = [];
 
 
 // Methods
 
-function __construct() {
-    $this->_hero=new Hero();
-    $this->_monster=new Monster();
-    $this->_merchant=new Merchant();
-    $this->_arms=new Arms();
+    function __construct()
+    {
+        $this->_hero = new Hero;
+        $this->_monster = new Monster;
+        $this->_merchant = new Merchant;
+        $this->_weapon = new Weapon;
+    }
+
+
+    protected function setHero($_hero)
+    {
+        $this->_hero = $_hero;
+    }
+
+    protected function getHero()
+    {
+        return $this->_hero;
+    }
+
+    protected function setMonster($_monster)
+    {
+        $this->_monster = $_monster;
+    }
+
+    protected function getMonster()
+    {
+        return $this->_monster;
+    }
+
+    protected function setMerchant($_merchant)
+    {
+        $this->_merchant = $_merchant;
+    }
+
+    protected function getMerchant()
+    {
+        return $this->_merchant;
+    }
+
+    protected function setWeapon($_weapon)
+    {
+        $this->_weapon = $_weapon;
+    }
+
+    protected function getWeapon()
+    {
+        return $this->_weapon;
+    }
+
+
+
+    protected function attack()
+    {
+        return;
+    }
+
+
+    protected function defend()
+    {
+        return;
+    }
+
+
+    protected function kill()
+    {
+        return;
+    }
+
+
+    protected function live()
+    {
+        return;
+    }
 }
-
-
-public function setHero($_hero)
-{
-$this->_hero=$_hero;
-}
-
-public function getHero() {
-    return $this->_hero;
-}
-
-public function setMonster($_monster) {
-$this->_monster=$_monster;
-}
-
-public function getMonster() {
-    return $this->_monster;
-}
-
-public function setMerchant($_merchant) {
-$this->_merchant=$_merchant;
-}
-
-public function getMerchant() {
-    return $this->_merchant;
-}
-
-public function setArms($_arms) {
-$this->_arms=$_arms;
-}
-
-public function getArms() {
-    return $this->_arms;
-}
-
-}
-
-
-
-?>
