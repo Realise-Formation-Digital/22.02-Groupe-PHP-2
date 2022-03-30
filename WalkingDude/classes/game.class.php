@@ -70,18 +70,18 @@ class Game
     
     public function stateHero($_hero)
     {
-        return $this->   ;
+        // return $this->   ;
     }
 
     public function stateMonster($_monster)
     {
-        return $this->   ;
+        // return $this->   ;
     }
     // The game coninues...
 
     public function deadHero(_$hero)
     {
-        return $this-> ;
+        // return $this-> ;
     }
     // End of the game
 
