@@ -1,0 +1,8 @@
+Hostname digital-HP-EliteBook-840-G3
+Localdir /
+Volume 1:
+    StartingPath   home/cf  
+    EndingPath     home/cf/.cache/deja-dup/metadata/README  
+    Hash SHA1 33a5550c093e03e837880395f1499dcac7e5db22
+Filelist 1
+    changed  home/cf/.cache/deja-dup/metadata/README
