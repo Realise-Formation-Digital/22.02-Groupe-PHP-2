@@ -33,10 +33,12 @@
     
     
     <?php 
-    require "Héro.class.php";
+    include "Héro.class.php";
     include "Game.class.php";
     include "Monstres.class.php";
     include "Armes.class.php";
+
+    
     if(isset($_POST['Lancer'])){
         
         $nom = $_POST['names'];
