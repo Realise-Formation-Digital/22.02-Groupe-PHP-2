@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./Images/zombi.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>WALKING DUDE</title>
 </head>
-<body>
-<?php
+<body class="bg-dark">
+  <div class="">
+    <div class="">
+        <div class="card bg-dark text-white">
+          <?php
   ########################################
   #
   # Affichage image aléatoire //manucci.info
@@ -20,11 +24,9 @@
   $chem_img = "./Images/backgrounds1";
   //On ouvre le dossier images
   $handle  = opendir($chem_img);
-  
   //On parcoure chaque élément du dossier
   while ($file = readdir($handle))
-    {
-      //Si les fichiers sont des images
+  {//Si les fichiers sont des images
       if(preg_match ("!(\.jpg|\.jpeg|\.gif|\.bmp|\.png)$!i", $file))
         {
           $listef[] = $file;
@@ -37,7 +39,7 @@
   $size = getimagesize($chem_img."/".$listef[$random_img]);
   
   //Largeur maximale de l'image pour la création des miniatures
-  $largeur_maxi = 1000;
+  $largeur_maxi = 920;
 
   //Si la largeur dépasse la limite autorisée...
   if ($size[0] > $largeur_maxi)
@@ -52,17 +54,36 @@
   else
     {
       //Sinon on garde la taille originale
-      $width = 1800;
+      $width = 1917;
       $height = $largeur_maxi;
     }
   //On affiche l'image aléatoire (en respectant les standards ! :) )
   echo "<img style=\"border: none; width: ".$width."px; height: ".$height."px\" src=\"".$chem_img."/".$listef[$random_img]."\" alt=\"".$listef[$random_img]."\" />";
   //On ferme le dossier
-
   closedir($handle);
-
 ?>
+          <div class="card-img-overlay">
+            <div class="row">
+              <div class="col-4">
+                <p class="pb-5">ATTAK</p>
+                <p class="pb-5">ARM</p>
+                <p class="pb-5">DEFENs</p>
+                <p class="pb-5">VIE</p>
+                <p class="pb-5"></p>
+                <?php
+                if ($_POST['choix_hero'] == "Tortue Génial"){
+                  new TortueGenial;
+                }
+
+                
+                ?>
+                </div>
+              <div class="col-4">
+                <img class="pt-3 pb-0 ps-1 pe-5"src="./Images/mechant/magaki-météor-.gif" width="950" height="900" >
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
-
-
-

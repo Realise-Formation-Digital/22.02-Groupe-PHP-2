@@ -44,47 +44,37 @@
         $nom = $_POST['names'];
         $choixhero = $_POST['choix_hero'];
         if($choixhero == "Tortue Génial"){
-            $hero = new TortueGenial();
+            
             echo "Bonjour $nom, vous avez choisi $choixhero 
             ";
-            
+            $hero = new TortueGenial();
             $hero->name = $nom;
-            echo '<img src="./Images/TUNG_FU_RUE/tung-intro.gif" />';
-            
-    
         }
         else if($choixhero == "Sakura"){
-            $hero = new Sakura();
+            
             echo "Bonjour $nom, vous avez choisi $choixhero 
             ";
+            $hero = new Sakura();
             $hero->name = $nom;
-            echo '<img src="./Images/TUNG_FU_RUE/tung-intro.gif" />';
-
             
         }
         else if($choixhero == "Captaine America"){
-            $hero = new CaptainAmerica();
             echo "Bonjour $nom, vous avez choisi $choixhero 
             ";
+            $hero = new CaptainAmerica();
             $hero->name = $nom;
-            echo '<img src="./Images/TUNG_FU_RUE/tung-intro.gif" />';
-
         }
         else if($choixhero == "Jocker"){
-            $hero = new Jocker();
             echo "Bonjour $nom, vous avez choisi $choixhero 
             ";
+            $hero = new Jocker();
             $hero->name = $nom;
-            echo '<img src="./Images/TUNG_FU_RUE/tung-intro.gif" />';
-
         }
         else if($choixhero == "Fred"){
-            $hero = new Fred();
             echo "Bonjour $nom, vous avez choisi $choixhero 
             ";
+            $hero = new Fred();
             $hero->name = $nom;
-            echo '<img src="./Images/TUNG_FU_RUE/tung-intro.gif" />';
-
         }
         
     
@@ -95,7 +85,7 @@
     <br>
     <br>
     <br>
-    <button type="submit" name="start" onclick=window.location.href='index2.php'>START</button>
+    <button type="submit" name="start" onclick=window.location.href='Game.php'>START</button>
 
     <?php
 
